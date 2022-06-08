@@ -1,33 +1,63 @@
 *{
-            
-    border:solid 
+    background-color:gray;
 
 }
 
+body{
+    background-color:#3c5cda;
+}
+
+
 h1{
 
-    color:teal
+    color:teal;
 
 }
 
 h2{
 
-    color:darkmagenta
+    color:darkmagenta;
 
 }
 
 p{
 
-    color:blanchedalmond
+    color:blanchedalmond;
 
 }
 
 a{
 
-    color:lightgray
+    color:gray;
 
 }
 
 .cabecalho{
-    
+    background-color:rgb(60,92,218);
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.menu{
+    background-color:lightgray;
+
+}
+
+.projeto{
+
+
+}
+
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.telho{
+    display: flex;
+    justify-content: flex-end;
 }
